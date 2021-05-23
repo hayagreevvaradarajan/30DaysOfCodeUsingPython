@@ -1,9 +1,11 @@
-#!/bin/python3
+#Stub code:
 import math
 import os
 import random
 import re
 import sys
+
+#Solution begins here:
 def condition(N):
     if N%2 != 0:
         print('Weird')
@@ -14,6 +16,7 @@ def condition(N):
             print('Weird')
         elif(N>20):
             print('Not Weird')
+#Stub code:
 if __name__ == '__main__':
     N = int(input())
     condition(N)
